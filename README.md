@@ -1,4 +1,4 @@
-# Dan_Holland_Photography
+# Dan Holland Photography
 
 
 I created this website for the 4th Milestone Project on Full Stack Frameworks with Django, at Code Institute's Diploma in Software Development course. 
@@ -27,6 +27,7 @@ The website features .....
   * [Features](#features)
     * [Existing Features](#existing-features)
     * [Features to be Implemented in Future](#features-to-be-implemented-in-future)
+  * [Information Architecture](#information-architecture)
   * [Technologies Used](#technologies-used)
     * [Languages](#languages)
     * [Frameworks and Libraries](#frameworks-and-libraries)
@@ -154,6 +155,24 @@ The website features .....
     * ## Features to be Implemented in Future
       * 3D Room Visualiser - To be able to provide clients with visual representation of the projected finished look.
       * Furniture Shop - To allow clients to browse the furniture available, ahead of an appointment or to buy direct.
+  * ## Information Architecture
+    * ## Data Storage
+      ### User Table
+
+        | Title | Key In Database | Form Validation | Data Type |
+        | --- | --- | --- | --- |
+        | Account id | _id | No Validation | Primary Key |
+        | First Name | first_name | max length 20 | CharField |
+        | Last Name  | last_name | hashed min length 8 | CharField |
+        | E-mail Address | email | Must contain @ & .com etc | Email |
+        | Street Address | default_street_address1 | max length 128 | CharField |
+        | Street Address 2 | default_street_address2 | max length 128 | CharField |
+        | City Or Town | default_city_town | max length 128 | CharField |
+        | County/State | default_county_state | max length 64 | CharField |
+        | Post Code | default_postcode_zi | max length 12 | CharField |
+        | Contact Number | default_telephone_number | Number max length 20 | CharField |
+        | Country | country | pycountry select | Option |
+
   * ## Technologies Used
     * ## Languages
       * [HTML5](https://en.wikipedia.org/wiki/HTML5)

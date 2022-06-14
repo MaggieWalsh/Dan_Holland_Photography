@@ -159,37 +159,77 @@ The website features .....
     * ## Data Storage
       ### User Table
 
-        | Title | Key In Database | Form Validation | Data Type |
+        | Title | DB Key | Form Validation | Data Type |
         | --- | --- | --- | --- |
         | Account id | _id | No Validation | Primary Key |
         | First Name | first_name | max length 20 | CharField |
         | Last Name  | last_name | hashed min length 8 | CharField |
-        | E-mail Address | email | Must contain @ & .com etc | Email |
+        | E-mail Address | email | '@' & '.com' required | Email |
         | Street Address | default_street_address1 | max length 128 | CharField |
         | Street Address 2 | default_street_address2 | max length 128 | CharField |
         | City Or Town | default_city_town | max length 128 | CharField |
         | County/State | default_county_state | max length 64 | CharField |
-        | Post Code | default_postcode_zi | max length 12 | CharField |
+        | Post Code | default_postcode | max length 12 | CharField |
         | Contact Number | default_telephone_number | Number max length 20 | CharField |
         | Country | country | pycountry select | Option |
+
+      ### Product Table
+
+        | Title | DB Key | Form Validation | Data Type |
+        | --- | --- | --- | --- |
+        | Product id | _id | No Validation | Primary Key |
+        | Product Name | name | max length 254 | CharField |
+        | Product Category  | category | max length 100 | CharField |
+        | Price | price | max 6 digits with 2 decimals | DecimalField |
+        | Description | description | no | CharField |
+        | Image | image | Null True Blank True | ImageField |
+        
+      ### Order Table
+
+        |  Title | Key In Database | Form Validation | Data Type |
+        | --- | --- | --- | --- |
+        | Order Number | order_number | No Validation | Primary Key |
+        | User Profile | user_profile | text | Foreign Key |
+        | First Name | first_name | max length 100 | CharField |
+        | Last Name | last name | max length 100 | CharField |
+        | email  email | max length 100 | CharField |
+        | telephone Number | telephone_number | max length 20 | CharField |
+        | street address 1| street_address1 | max length 100 | CharField |
+        | street address 2 | street_address2 | max length 100 | CharField |
+        | City Town | city_town | max length 100 | CharField |
+        | County/State | county_state | max length 100 | CharField |
+        | Postcode | postcode | max length 8 | CharField |
+        | Country | country | country select | Option |
+        | Order Date | order_date | datetime.date.today | DateField |
+        | Total Order | total_order | max digits 10 | DecimalField |
+        | Delivery Charge | delivery_charge | max digits 5 | DecimalField |
+        | Grand total | grand_total | max digits 10 | DecimalField |
 
   * ## Technologies Used
     * ## Languages
       * [HTML5](https://en.wikipedia.org/wiki/HTML5)
       * [CSS](https://en.wikipedia.org/wiki/CSS)
-    * ## Frameworks and Libraries
-      * [Bootstrap v.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) (which uses JavaScript)
-      * [!bcdn5](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet) extension
+      * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+      * [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+    * ## Frameworks
+      * [Bootstrap v.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+      * [Django](https://www.djangoproject.com/)
+    * ## Libraries and Tools
+      * [Sweet Alert](https://sweetalert2.github.io/)
+      * [Stripe Payments](https://stripe.com/)
       * [Google Fonts](https://fonts.google.com/)
       * [Font Awesome](https://fontawesome.com/)
       * [Coolors.co](https://coolors.co)
       * [Favicon.io](https://favicon.io)
-      * [Unsplash](https://unsplash.com/)
       * [Balsamiq](https://balsamiq.com/)
       * [VS Code](https://code.visualstudio.com/)
       * [GitHub](https://github.com/)
       * [Autoprefixer](https://autoprefixer.github.io/)
       * [Am I Responsive](http://ami.responsivedesign.is/)
+      * [AWS](https://aws.amazon.com/s3/)
+      * [Heroku](https://www.heroku.com)
+      * [Git](https://git-scm.com/)
+      * [Postgres](https://www.postgresql.org/)
   * ## Testing
     Testing for this website was done using the Google Chrome Browser, using Chrome Developer Tools to check the different screensizes. Testing was also done on an iPhone 8 using Safari, as sometimes Safari can cause issues with how the website renders. No such errors were found.
     * ## User Stories Testing
@@ -272,50 +312,168 @@ The website features .....
       * In order to improve best practices, I added *rel-noopener* to the untrusted external links.
 
   * ## Deployment
+    ## Deployment
 
-     I chose to create this project in VS Code rather than Gitpod. This is why there is no instructions related to Gitpod.
-  
-      1. On GitHub, navigate to your site's repository.
-      2. Under your repository name, click  *Settings*.
-      3. In the left sidebar, click Pages.
-      Page tab in the left-hand sidebar
-      4. Under "GitHub Pages", use the *None* or *Branch* drop-down menu and select a publishing source.
-      5. Optionally, use the drop-down menu to select a folder for your publishing source.
-      6. Click Save.
+    Below is an example of how to deploy this site locally based on using *VsCode IDE*, deploying to Heroku using *Amazon S3* for hosting of static and media files. This will allow the site to deploy automatically with commits to the master branch. The code can also be run locally.
 
-  * ## Forking a GitHub Repository
-      1. Login to GitHub.
-      2. Locate your desired repository.
-      3. Locate the fork option in the top-right hand corner of the repository page.    
-      4. You will be asked where you want to fork it to.
+    ### Deployment Requirements
 
-  * ## Cloning a repository using the command line
-      1. On GitHub, navigate to the main page of the repository.
-      2. Above the list of files, click download code.
-      3. To clone the repository using HTTPS, under "Clone with HTTPS", click clipboard icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click *Use SSH*, then click clipboard icon. To clone a repository using GitHub CLI, click Use *GitHub CLI*, then click clipboard icon.
-      4. Open Terminal.
-      5. Change the current working directory to the location where you want the cloned directory.
-      6. Type ```git clone```, and then paste the URL you copied earlier.
+    - [VS Code](https://code.visualstudio.com/) IDE Local development tool
+    - [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) Documentation is based on Python v3.8
+    - PIP package installer
+    - [Stripe](https://stripe.com/gb) Payment infrastructure
 
-           ```
-           $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-           ```
+    ### Deploying Locally
 
-      7. Press Enter to create your local clone.
+    1. Clone a copy of the repository by clicking code at the top of the page and selecting 'Download Zip' when this has downloaded, extract the files to your folder of choice.
+    Alternatively if you have git installed on your client you can run the following command from the terminal.
 
-          ```
-          $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-          ```
+    ```bash
+    git clone https://github.com/MaggieWalsh/Dan_Holland_Photography
+    ```
 
-        \> Cloning into \`Spoon-Knife`\...
+    1. Open us your local IDE (For this example we will be using VScode as linked in the requirements) and open the working folder.
 
-        \> remote: Counting objects: 10, done.
+    1. Ideally you will want to work within a virtual environment to allow all packages to be kept within the project, this can be installed using the following command (please note some IDE's require pip3 instead of pip, please check with the documentation for your chosen IDE)
 
-        \> remote: Compressing objects: 100% (8/8), done.
+    ```bash
+    pip install pipenv
+    ```
 
-        \> remove: Total 10 (delta 1), reused 10 (delta 1)
+    1. In your root dir, create a new folder called .venv (ensure you have the .)
 
-        \> Unpacking objects: 100% (10/10), done.
+    1. To activate the virtual environment navigate to the below dir and run activate.bat
+
+    ```bash
+    [folderinstalled]\scripts\activate\activate.bat
+    ```
+
+    If you're using Linux or Mac use the below command 
+
+    ```bash
+    source .venv/bin/activate
+    ```
+
+    1. Next we need to install all modules required by the project to run, use the follow
+
+    ```bash
+    pipenv install -r requirements.txt
+    ```
+
+    1. Create a new folder within the root dir called env.py. Within this file add the following lines to set up the environmental variables.
+
+    ```bash
+    import os
+
+    os.environ["SECRET_KEY"] = "[Your Secret Key]"
+    os.environ["DEV"] = "1"
+    os.environ["HOSTNAME"] = "0.0.0.0"
+    os.environ["STRIPE_PUBLIC_KEY"] = "[Your Stripe Key]"
+    os.environ["STRIPE_SECRET_KEY"] = "[Your Stripe Secret Key]"
+    os.environ["DATABASE_URL"] = "[Your DB URL]"
+    ```
+
+    ### Database setup
+
+    1. To set up your database you will first need to run the following command
+
+    ```bash
+    python manage.py migrate
+    ```
+
+    1. To create a super user to allow you to access the admin panel run the following command in your terminal and complete the required information as prompted
+
+    ```bash
+    python manage.py createsuperuser
+    ```
+
+    1. From there you should now be able to run the server using the following command
+
+    ```bash
+    python manage.py runserver
+    ```
+
+    1. If everything has been correctly configure you should not get a message giving you a link to your locally hosted site usually at http://127.0.0.1:8000
+
+    1. Next close the server in your terminal using ctrl+c (cmd+c on mac) and run the following commands to populate the database
+
+    ```bash
+    python manage.py loaddata store/fixtures/categories.json
+    python manage.py loaddata store/fixtures/products.json
+    python manage.py loaddata clients/fixtures/clients.json
+    ```
+
+    ### Deploying to Heroku
+
+    To run this application in an online environment you will need to deploy the code to *Heroku*.
+    Before moving on to this section please ensure you have followed the instructions for local deployment and this has been successful
+
+    1. Either create an account at [Heroku](https://www.heroku.com/) or log in to your account
+    1. Set up a new app under a unique name
+    1. In the resources section, in the addons field type the below command and select the free cost option
+
+    ```bash
+    heroku Postgres
+    ```
+
+    1. in the settings tab select Reveal Config Vars and copy the pre populated DATABASE_URL into your settings.py file in your project
+    1. in the Config Vars in Heroku you will need to populate with the following keys
+
+    |          Key          |     Value    |
+    |:---------------------:|:------------:|
+    | AWS_ACCESS_KEY_ID     | [your value] |
+    | AWS_SECRET_ACCESS_KEY | [your value] |
+    | SECRET_KEY            | [your value] |
+    | STRIPE_PUBLIC_KEY     | [your value] |
+    | STRIPE_SECRET_KEY     | [your value] |
+    | USE_AWS               | TRUE         |
+    | DATABASE_URL          | [Your Value] |
+
+    1. Now this has been configured you will now migrate the local database to the cloud database using the migrate command as below
+
+    ```bash
+    python manage.py migrate
+    ```
+
+    1. Next you will need to create a super user and populate the database as described in the database set up section
+    1. When the migrations and data has been loaded, in your *Heroku* dashboard select the Deploy tab
+    1. From here select the Github option and connect the repository from GitHub and select the branch (Master) to deploy from.
+    1. It is advised to select automatic deployment to ensure for each push to Github the hosted version is up to date.
+    1. When this has deployed select open app from the top bar of the *Heroku* App.
+
+    * ## Forking a GitHub Repository
+        1. Login to GitHub.
+        2. Locate your desired repository.
+        3. Locate the fork option in the top-right hand corner of the repository page.    
+        4. You will be asked where you want to fork it to.
+
+    * ## Cloning a repository using the command line
+        1. On GitHub, navigate to the main page of the repository.
+        2. Above the list of files, click download code.
+        3. To clone the repository using HTTPS, under "Clone with HTTPS", click clipboard icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click *Use SSH*, then click clipboard icon. To clone a repository using GitHub CLI, click Use *GitHub CLI*, then click clipboard icon.
+        4. Open Terminal.
+        5. Change the current working directory to the location where you want the cloned directory.
+        6. Type ```git clone```, and then paste the URL you copied earlier.
+
+            ```
+            $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+            ```
+
+        7. Press Enter to create your local clone.
+
+            ```
+            $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+            ```
+
+            \> Cloning into \`Spoon-Knife`\...
+
+            \> remote: Counting objects: 10, done.
+
+            \> remote: Compressing objects: 100% (8/8), done.
+
+            \> remove: Total 10 (delta 1), reused 10 (delta 1)
+
+            \> Unpacking objects: 100% (10/10), done.
 
   * ## Credits
     * ## Imagery

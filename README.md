@@ -28,6 +28,9 @@ The website features .....
     * [Existing Features](#existing-features)
     * [Features to be Implemented in Future](#features-to-be-implemented-in-future)
   * [Information Architecture](#information-architecture)
+    * [User Table](#user-table)
+    * [Product Table](#product-table)
+    * [Order Table](#order-table)
   * [Technologies Used](#technologies-used)
     * [Languages](#languages)
     * [Frameworks and Libraries](#frameworks-and-libraries)
@@ -36,7 +39,6 @@ The website features .....
     * [Additional Testing](#additional-testing)
     * [Resolved Bugs](#resolved-bugs)
   * [Deployment](#deployment)
-    * [Forking a GitHub Repository](#forking-a-github-repository)
     * [Forking a GitHub Repository](#forking-a-github-repository)
     * [Cloning a repository using the command line](#cloning-a-repository-using-the-command-line)
   * [Credits](#credits)
@@ -312,7 +314,6 @@ The website features .....
       * In order to improve best practices, I added *rel-noopener* to the untrusted external links.
 
   * ## Deployment
-    ## Deployment
 
     Below is an example of how to deploy this site locally based on using *VsCode IDE*, deploying to Heroku using *Amazon S3* for hosting of static and media files. This will allow the site to deploy automatically with commits to the master branch. The code can also be run locally.
 

@@ -194,7 +194,7 @@ The website features .....
         | User Profile | user_profile | text | Foreign Key |
         | First Name | first_name | max length 100 | CharField |
         | Last Name | last name | max length 100 | CharField |
-        | email  email | max length 100 | CharField |
+        | email | email | max length 100 | CharField |
         | telephone Number | telephone_number | max length 20 | CharField |
         | street address 1| street_address1 | max length 100 | CharField |
         | street address 2 | street_address2 | max length 100 | CharField |

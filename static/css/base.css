@@ -21,6 +21,12 @@ body::before {
     opacity: 0.75;
 }
 
+.row.pt-lg-2.d-none.d-lg-flex {
+    background-color: #a7bbac;
+    opacity: 0.75;
+
+}
+
 /* from Bulma */
 .icon {
     align-items: center;

@@ -21,10 +21,16 @@ body::before {
     opacity: 0.75;
 }
 
-.row.pt-lg-2.d-none.d-lg-flex {
+/* Opaque background for navigation menu */
+.bg-opaque {
     background-color: #a7bbac;
     opacity: 0.75;
+}
 
+/* Fix hamburger toggler opacity */
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0) !important;
+    border-color: rgba(0,0,0,.75);
 }
 
 /* from Bulma */
@@ -72,6 +78,12 @@ body::before {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+/* Opaque background for delivery banner */
+.bg-black {
+    background-color: #3d3b2c;
+    opacity: 0.85;
 }
 
 /* -------------------------------- Media Queries */

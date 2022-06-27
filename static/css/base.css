@@ -1,0 +1,156 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: calc(100vh - 164px);
+    color: #555;
+    font-family: 'League Gothic';
+}
+
+/* How to make the background image transparent https://coder-coder.com/background-image-opacity/ */
+body::before {
+    content: "";
+    background: url('/media/hero.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+/* Opaque background for navigation menu */
+.bg-opaque {
+    background-color: #a7bbac;
+    /* opacity: 0.75; */
+}
+
+/* Fix hamburger toggler opacity */
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0) !important;
+    border-color: rgba(0,0,0,.75);
+}
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+    font-family: 'Quando';
+}
+
+.shop-now-button {
+    background: black;
+    color: white;
+    min-width: 260px;
+}
+
+.btn-black {
+    background: black;
+    color: white;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #222;
+    color: white;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+/* Opaque background for delivery banner */
+.bg-black {
+    background-color: #3d3b2c;
+    /* opacity: 0.85; */
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+    /* add back in if change to solid header etc */
+	/* z-index: -1; */
+}
+
+/* Products Page */
+/* Card styling - https://www.w3schools.com/howto/howto_css_cards.asp */
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  /* Limit the number of cards to a deck
+https://stackoverflow.com/questions/38895106/how-to-limit-number-of-columns-of-card-deck */
+.card-deck{
+    margin-top: 10px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: .5rem;
+}
+
+/* Try to fix image sizing issues */
+.card-img, .card-img-bottom, .card-img-top {
+    width: 10rem;
+}
+
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}

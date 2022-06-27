@@ -24,7 +24,7 @@ body::before {
 /* Opaque background for navigation menu */
 .bg-opaque {
     background-color: #a7bbac;
-    opacity: 0.75;
+    /* opacity: 0.75; */
 }
 
 /* Fix hamburger toggler opacity */
@@ -83,8 +83,53 @@ body::before {
 /* Opaque background for delivery banner */
 .bg-black {
     background-color: #3d3b2c;
-    opacity: 0.85;
+    /* opacity: 0.85; */
 }
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+    /* add back in if change to solid header etc */
+	/* z-index: -1; */
+}
+
+/* Products Page */
+/* Card styling - https://www.w3schools.com/howto/howto_css_cards.asp */
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  /* Limit the number of cards to a deck
+https://stackoverflow.com/questions/38895106/how-to-limit-number-of-columns-of-card-deck */
+.card-deck{
+    margin-top: 10px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: .5rem;
+}
+
+/* Try to fix image sizing issues */
+.card-img, .card-img-bottom, .card-img-top {
+    width: 10rem;
+}
+
 
 /* -------------------------------- Media Queries */
 

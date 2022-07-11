@@ -3,11 +3,22 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
-    background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Lato';
+    font-family: 'League Gothic';
+}
+
+/* How to make the background image transparent https://coder-coder.com/background-image-opacity/ */
+body::before {
+    content: "";
+    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
 }
 
 /* from Bulma */

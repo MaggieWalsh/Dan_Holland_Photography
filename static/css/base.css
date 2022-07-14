@@ -11,7 +11,7 @@ body {
 /* How to make the background image transparent https://coder-coder.com/background-image-opacity/ */
 body::before {
     content: "";
-    background: url('/media/bridge2.jpg') no-repeat center center fixed;
+    background: url('/media/bridge2-hero.jpg') no-repeat center center fixed;
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -86,6 +86,28 @@ body::before {
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
+
+  #myCarousel .list-inline {
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+#myCarousel .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+}
+
+#myCarousel .carousel-indicators > li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+}
+
+#myCarousel .carousel-indicators > li.active img {
+    opacity: 0.7;
+}
 
 /* -------------------------------- Media Queries */
 

@@ -83,6 +83,19 @@ body::before {
 	background: white;
 }
 
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
+
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }

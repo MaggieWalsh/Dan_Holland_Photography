@@ -39,38 +39,24 @@
                     <tr>
                         <td class="p-3 w-25">
                             <img class="img-fluid rounded" src="{{ item.product.image.url }}">
+                            <img class="img-fluid rounded" src="{{ item.frame.image.url }}">
                         </td>
                         <td class="py-3">
                             <p class="my-0"><strong>{{ item.product.name }}</strong></p>
                             <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
-                        </td>
-                        <td class="py-3">
-                            <p class="my-0">€{{ item.product.price }}</p>
-                        </td>
-                        <td class="py-3 w-25">
-                            <p class="my-0">{{ item.quantity }}</p>
-                        </td>
-                        <td class="py-3">
-                            <p class="my-0">€{{ item.product.price }}</p>
-                        </td>
-                    </tr>
-                    {% endfor %}
-                    {% for item in bag_items %}
-                    <tr>
-                        <td class="p-3 w-25">
-                            <img class="img-fluid rounded" src="{{ item.frame.image.url }}">
-                        </td>
-                        <td class="py-3">
                             <p class="my-0"><strong>{{ item.frame.name }}</strong></p>
                             <p class="my-0 small text-muted">SKU: {{ item.frame.sku|upper }}</p>
                         </td>
                         <td class="py-3">
+                            <p class="my-0">€{{ item.product.price }}</p>
                             <p class="my-0">€{{ item.frame.price }}</p>
                         </td>
                         <td class="py-3 w-25">
                             <p class="my-0">{{ item.quantity }}</p>
+                            <p class="my-0">{{ item.quantity }}</p>
                         </td>
                         <td class="py-3">
+                            <p class="my-0">€{{ item.product.price }}</p>
                             <p class="my-0">€{{ item.frame.price }}</p>
                         </td>
                     </tr>

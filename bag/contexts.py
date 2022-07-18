@@ -11,20 +11,25 @@ def bag_contents(request):
     total = 0
     product_count = 0
     frame_count = 0
-
     bag = request.session.get('bag', {})
 
     for item_id, quantity in bag.items():
         product = get_object_or_404(Product, pk=item_id)
-        frame = get_object_or_404(Frame, pk=item_id)
         total += quantity * product.price
-        total += quantity * frame.price
-        frame_count += quantity
         product_count += quantity
         bag_items.append({
             'item_id': item_id,
             'quantity': quantity,
             'product': product,
+        })
+
+    for item_id, quantity in bag.items():
+        frame = get_object_or_404(Frame, pk=item_id)
+        total += quantity * frame.price
+        frame_count += quantity
+        bag_items.append({
+            'item_id': item_id,
+            'quantity': quantity,
             'frame': frame,
         })
 

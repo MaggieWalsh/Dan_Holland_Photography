@@ -4,6 +4,7 @@
     "fields": {
         "sku": "PRI4758394",
         "name": "Swan Preening",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -15,6 +16,7 @@
     "fields": {
         "sku": "PRI8374945",
         "name": "Fisherman's Friend",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -26,6 +28,7 @@
     "fields": {
         "sku": "PRI4756483",
         "name": "Deora Dé",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -37,6 +40,7 @@
     "fields": {
         "sku": "PRI5868374",
         "name": "Dairbhre",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -48,6 +52,7 @@
     "fields": {
         "sku": "PRI6657543",
         "name": "Golden Beech",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -59,6 +64,7 @@
     "fields": {
         "sku": "PRI4542678",
         "name": "Witch Hazel",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -70,6 +76,7 @@
     "fields": {
         "sku": "PRI8875643",
         "name": "An Teach Beag - Clonakilkty",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -81,6 +88,7 @@
     "fields": {
         "sku": "PRI4531897",
         "name": "South Harbour - Cape Clear",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -92,6 +100,7 @@
     "fields": {
         "sku": "PRI6500876",
         "name": "Railway Bridge - Ballydehob",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -103,6 +112,7 @@
     "fields": {
         "sku": "PRI8009874",
         "name": "Castle Freke",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -114,6 +124,7 @@
     "fields": {
         "sku": "PRI4570098",
         "name": "Cattle - Hare Island",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -125,6 +136,7 @@
     "fields": {
         "sku": "PRI6600594",
         "name": "St. Peter's & Patrick's - Bandon",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -136,6 +148,7 @@
     "fields": {
         "sku": "PRI3044838",
         "name": "The Horse Whisperer - Clonakilty",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -147,6 +160,7 @@
     "fields": {
         "sku": "PRI4555656",
         "name": "Harbour View - Kilbrittain",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -158,6 +172,7 @@
     "fields": {
         "sku": "PRI9058575",
         "name": "Sunrise - Allihies",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -169,6 +184,7 @@
     "fields": {
         "sku": "PRI3747400",
         "name": "Mike 5",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -180,6 +196,7 @@
     "fields": {
         "sku": "PRI3009834",
         "name": "An tSnáthaid Mhór",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -191,6 +208,7 @@
     "fields": {
         "sku": "PRI4990044",
         "name": "The Lucky House - Clonakilty",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -202,6 +220,7 @@
     "fields": {
         "sku": "PRI3300045",
         "name": "Cuckoo Flower",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -213,6 +232,7 @@
     "fields": {
         "sku": "PRI2030958",
         "name": "Finbarr's Oratory - Gougane Barra",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -224,6 +244,7 @@
     "fields": {
         "sku": "PRI2293746",
         "name": "Joanie of the Bogs",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -235,6 +256,7 @@
     "fields": {
         "sku": "PRI4857596",
         "name": "Capall - Castledonovan",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -246,6 +268,7 @@
     "fields": {
         "sku": "PRI9038475",
         "name": "Horse TBC name",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -257,6 +280,7 @@
     "fields": {
         "sku": "PRI3435567",
         "name": "Voyeur",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -268,6 +292,7 @@
     "fields": {
         "sku": "PRI2300345",
         "name": "Art Sale",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -279,6 +304,7 @@
     "fields": {
         "sku": "PRI9345045",
         "name": "Fastnet - Carraig Aonair",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -290,6 +316,7 @@
     "fields": {
         "sku": "PRI4039455",
         "name": "Gouganne Barra Lake",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -301,6 +328,7 @@
     "fields": {
         "sku": "PRI3345004",
         "name": "Tír na Spideoga",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -312,6 +340,7 @@
     "fields": {
         "sku": "PRI1182746",
         "name": "Stream TBC name",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -323,6 +352,7 @@
     "fields": {
         "sku": "PRI2120394",
         "name": "Frost in the Woods",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -334,6 +364,7 @@
     "fields": {
         "sku": "PRI3122568",
         "name": "Sunrise on the Bandon",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -345,6 +376,7 @@
     "fields": {
         "sku": "PRI4334790",
         "name": "Eala TBC name",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -356,6 +388,7 @@
     "fields": {
         "sku": "PRI3326787",
         "name": "Three Trees",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -367,6 +400,7 @@
     "fields": {
         "sku": "PRI2034837",
         "name": "Mayflower",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -378,6 +412,7 @@
     "fields": {
         "sku": "PRI8293845",
         "name": "Cottage Window - Cape Clear",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -389,6 +424,7 @@
     "fields": {
         "sku": "PRI6653790",
         "name": "Autumn on Cottage Walk",
+        "size": "1 X 1",
         "description": "",
         "price": 75.00,
         "category": 1,
@@ -400,6 +436,7 @@
     "fields": {
         "sku": "FRAME1",
         "name": "Black Frame",
+        "size": "1 X 1",
         "description": "",
         "price": 15.00,
         "category": 2,
@@ -412,6 +449,7 @@
     "fields": {
         "sku": "FRAME2",
         "name": "Gold Frame",
+        "size": "1 X 1",
         "description": "",
         "price": 15.00,
         "category": 2,
@@ -423,6 +461,7 @@
     "fields": {
         "sku": "FRAME3",
         "name": "Light Wood Frame",
+        "size": "1 X 1",
         "description": "",
         "price": 15.00,
         "category": 2,
@@ -434,6 +473,7 @@
     "fields": {
         "sku": "FRAME4",
         "name": "Medium Brown Wood Frame",
+        "size": "1 X 1",
         "description": "",
         "price": 15.00,
         "category": 2,
@@ -445,6 +485,7 @@
     "fields": {
         "sku": "FRAME5",
         "name": "Silver Frame",
+        "size": "1 X 1",
         "description": "",
         "price": 15.00,
         "category": 2,
@@ -456,6 +497,7 @@
     "fields": {
         "sku": "FRAME6",
         "name": "Untreated Wood Frame",
+        "size": "1 X 1",
         "description": "",
         "price": 15.00,
         "category": 2,
@@ -467,6 +509,7 @@
     "fields": {
         "sku": "FRAME7",
         "name": "Slim White Frame",
+        "size": "1 X 1",
         "description": "",
         "price": 15.00,
         "category": 2,
@@ -478,6 +521,7 @@
     "fields": {
         "sku": "FRAME8",
         "name": "White Frame",
+        "size": "1 X 1",
         "description": "",
         "price": 15.00,
         "category": 2,

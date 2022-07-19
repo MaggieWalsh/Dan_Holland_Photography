@@ -17,6 +17,7 @@
             <div class="container py-2">
                 <div class="row align-items-center">
                     <div id="slider">
+                        {% if product.imageFramed %}
                         <div id="myCarousel" class="carousel slide shadow">
                             <!-- Carousel https://www.codeply.com/p/4ROQRamTcN -->
                             <!-- main slider carousel items -->
@@ -27,9 +28,11 @@
                                 <div class="carousel-item" data-slide-number="1">
                                     <img src="{{ product.imageFramed.url }}" class="img-fluid" />
                                 </div>
+                                {% if product.imageWall %}
                                 <div class="carousel-item" data-slide-number="2">
                                     <img src="{{ product.imageWall.url }}" class="img-fluid" />
                                 </div>
+                                {% endif %}
                                 <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="sr-only">Previous</span>
@@ -38,7 +41,6 @@
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="sr-only">Next</span>
                                 </a>
-
                             </div>
                             <!-- main slider carousel nav controls -->
                             <ul class="carousel-indicators list-inline mx-auto border px-2">
@@ -49,14 +51,18 @@
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
+                                    {% if product.imageFramed %}
                                     <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel">
                                         <img src="{{ product.imageFramed.url }}" class="img-fluid">
                                     </a>
+                                    {% endif %}
                                 </li>
                                 <li class="list-inline-item">
+                                    {% if product.imageWall %}
                                     <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel">
                                         <img src="{{ product.imageWall.url }}" class="img-fluid">
                                     </a>
+                                    {% endif %}
                                 </li>
                                 <li class="list-inline-item">
                                     <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel">
@@ -64,8 +70,39 @@
                                     </a>
                             </ul>
                         </div>
+                        {% else %}
+                        <div class="image-container my-5">
+                            {% if product.image %}
+                            <a href="{{ product.image.url }}" target="_blank">
+                                <img class="card-img-top img-fluid" src="{{ product.image.url }}"
+                                    alt="{{ product.name }}">
+                            </a>
+                            {% else %}
+                            <a href="">
+                                <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
+                                    alt="{{ product.name }}">
+                            </a>
+                            {% endif %}
+                        </div>
                     </div>
-
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="product-details-container mb-5 mt-md-5">
+                            <p class="mb-0">{{ product.name }}</p>
+                            <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }}</p>
+                            {% if product.category %}
+                            <p class="small mt-1 mb-0">
+                                <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                                    <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                                </a>
+                            </p>
+                            {% endif %}
+                            {% if product.size %}
+                            <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.size }} / 5</small>
+                            {% endif %}
+                            <p class="mt-3">{{ product.description }}</p>
+                        </div>
+                        {% endif %}
+                    </div>
                 </div>
                 <!--/main slider carousel-->
             </div>
@@ -79,7 +116,9 @@
                 {% else %}
                 <small class="text-muted">No size available</small>
                 {% endif %}
+                {% if product.description %}
                 <h6 class="mt-3"><strong>Information :</strong></h4>
+                    {% endif %}
                     <p>{{ product.description|linebreaksbr }}</p>
                     <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                         {% csrf_token %}
@@ -94,7 +133,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-12">
                                 <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
                                     <span class="icon">

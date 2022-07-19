@@ -5,10 +5,12 @@
         "sku": "PRI4758394",
         "name": "Swan Preening",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "swan.jpg"
+        "image": "swan.jpg",
+        "imageFramed": "swan-frame.jpg",
+        "imageWall": "swan-wall.jpg"
     }
 }, {
     "pk": 2,
@@ -17,10 +19,12 @@
         "sku": "PRI8374945",
         "name": "Fisherman's Friend",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "robin.jpg"
+        "image": "robin.jpg",
+        "imageFramed": "robin-frame.jpg",
+        "imageWall": "robin-wall.jpg"
     }
 }, {
     "pk": 3,
@@ -29,10 +33,12 @@
         "sku": "PRI4756483",
         "name": "Deora Dé",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "fuschia.jpg"
+        "image": "fuschia.jpg",
+        "imageFramed": "fuschia-frame.jpg",
+        "imageWall": "fuschia-wall.jpg"
     }
 }, {
     "pk": 4,
@@ -41,10 +47,12 @@
         "sku": "PRI5868374",
         "name": "Dairbhre",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "trees-bw.jpg"
+        "image": "trees-bw.jpg",
+        "imageFramed": "trees-bw-frame.jpg",
+        "imageWall": "trees-bw-wall.jpg"
     }
 }, {
     "pk": 5,
@@ -53,10 +61,12 @@
         "sku": "PRI6657543",
         "name": "Golden Beech",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "woods.jpg"
+        "image": "woods.jpg",
+        "imageFramed": "woods-frame.jpg",
+        "imageWall": "woods-wall.jpg"
     }
 }, {
     "pk": 6,
@@ -65,10 +75,12 @@
         "sku": "PRI4542678",
         "name": "Witch Hazel",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "autumn-leaves.jpg"
+        "image": "autumn-leaves.jpg",
+        "imageFramed": "autumn-leaves-frame.jpg",
+        "imageWall": "autumn-leaves-wall.jpg"
     }
 }, {
     "pk": 7,
@@ -77,10 +89,12 @@
         "sku": "PRI8875643",
         "name": "An Teach Beag - Clonakilkty",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "bicycle.jpg"
+        "image": "bicycle.jpg",
+        "imageFramed": "bicycle-frame.jpg",
+        "imageWall": "bicycle-wall.jpg"
     }
 }, {
     "pk": 8,
@@ -89,10 +103,12 @@
         "sku": "PRI4531897",
         "name": "South Harbour - Cape Clear",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "boats.jpg"
+        "image": "boats.jpg",
+        "imageFramed": "boats-frame.jpg",
+        "imageWall": "boats-wall.jpg"
     }
 }, {
     "pk": 9,
@@ -101,10 +117,12 @@
         "sku": "PRI6500876",
         "name": "Railway Bridge - Ballydehob",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "bridge.jpg"
+        "image": "bridge.jpg",
+        "imageFramed": "bridge-frame.jpg",
+        "imageWall": "bridge-wall.jpg"
     }
 }, {
     "pk": 10,
@@ -113,10 +131,12 @@
         "sku": "PRI8009874",
         "name": "Castle Freke",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "castle.jpg"
+        "image": "castle.jpg",
+        "imageFramed": "castle-frame.jpg",
+        "imageWall": "castle-wall.jpg"
     }
 }, {
     "pk": 11,
@@ -125,10 +145,12 @@
         "sku": "PRI4570098",
         "name": "Cattle - Hare Island",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "cattle.jpg"
+        "image": "cattle.jpg",
+        "imageFramed": "cattle-frame.jpg",
+        "imageWall": "cattle-wall.jpg"
     }
 }, {
     "pk": 12,
@@ -137,10 +159,12 @@
         "sku": "PRI6600594",
         "name": "St. Peter's & Patrick's - Bandon",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "church-roof.jpg"
+        "image": "church-roof.jpg",
+        "imageFramed": "church-roof-frame.jpg",
+        "imageWall": "church-roof-wall.jpg"
     }
 }, {
     "pk": 13,
@@ -149,10 +173,12 @@
         "sku": "PRI3044838",
         "name": "The Horse Whisperer - Clonakilty",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "cloak.jpg"
+        "image": "cloak.jpg",
+        "imageFramed": "cloak-frame.jpg",
+        "imageWall": "cloak-wall.jpg"
     }
 }, {
     "pk": 14,
@@ -161,10 +187,12 @@
         "sku": "PRI4555656",
         "name": "Harbour View - Kilbrittain",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "clouds.jpg"
+        "image": "clouds.jpg",
+        "imageFramed": "clouds-frame.jpg",
+        "imageWall": "clouds-wall.jpg"
     }
 }, {
     "pk": 15,
@@ -173,10 +201,12 @@
         "sku": "PRI9058575",
         "name": "Sunrise - Allihies",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "dark-clouds.jpg"
+        "image": "dark-clouds.jpg",
+        "imageFramed": "dark-clouds-frame.jpg",
+        "imageWall": "dark-clouds-wall.jpg"
     }
 }, {
     "pk": 16,
@@ -185,10 +215,12 @@
         "sku": "PRI3747400",
         "name": "Mike 5",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "donkey.jpg"
+        "image": "donkey.jpg",
+        "imageFramed": "donkey-frame.jpg",
+        "imageWall": "donkey-wall.jpg"
     }
 }, {
     "pk": 17,
@@ -197,10 +229,12 @@
         "sku": "PRI3009834",
         "name": "An tSnáthaid Mhór",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "dragonfly.jpg"
+        "image": "dragonfly.jpg",
+        "imageFramed": "dragonfly-frame.jpg",
+        "imageWall": "dragonfly-wall.jpg"
     }
 }, {
     "pk": 18,
@@ -209,10 +243,12 @@
         "sku": "PRI4990044",
         "name": "The Lucky House - Clonakilty",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "empty-shop.jpg"
+        "image": "empty-shop.jpg",
+        "imageFramed": "empty-shop-frame.jpg",
+        "imageWall": "empty-shop-wall.jpg"
     }
 }, {
     "pk": 19,
@@ -221,10 +257,12 @@
         "sku": "PRI3300045",
         "name": "Cuckoo Flower",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "flower.jpg"
+        "image": "flower.jpg",
+        "imageFramed": "flower-frame.jpg",
+        "imageWall": "flower-wall.jpg"
     }
 }, {
     "pk": 20,
@@ -233,10 +271,12 @@
         "sku": "PRI2030958",
         "name": "Finbarr's Oratory - Gougane Barra",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "gougane-barra.jpg"
+        "image": "gougane-barra.jpg",
+        "imageFramed": "gougane-barra-frame.jpg",
+        "imageWall": "gougane-barra-wall.jpg"
     }
 }, {
     "pk": 21,
@@ -245,10 +285,12 @@
         "sku": "PRI2293746",
         "name": "Joanie of the Bogs",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "heron.jpg"
+        "image": "heron.jpg",
+        "imageFramed": "heron-frame.jpg",
+        "imageWall": "heron-wall.jpg"
     }
 }, {
     "pk": 22,
@@ -257,22 +299,26 @@
         "sku": "PRI4857596",
         "name": "Capall - Castledonovan",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "horse.jpg"
+        "image": "horse.jpg",
+        "imageFramed": "horse-frame.jpg",
+        "imageWall": "horse-wall.jpg"
     }
 }, {
     "pk": 23,
     "model": "products.product",
     "fields": {
         "sku": "PRI9038475",
-        "name": "Horse TBC name",
+        "name": "Capall ag Smaoineamh",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "horse2.jpg"
+        "image": "horse2.jpg",
+        "imageFramed": "horse2-frame.jpg",
+        "imageWall": "horse2-wall.jpg"
     }
 }, {
     "pk": 24,
@@ -281,10 +327,12 @@
         "sku": "PRI3435567",
         "name": "Voyeur",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "ladybirds.jpg"
+        "image": "ladybirds.jpg",
+        "imageFramed": "ladybirds-frame.jpg",
+        "imageWall": "ladybirds-wall.jpg"
     }
 }, {
     "pk": 25,
@@ -293,10 +341,12 @@
         "sku": "PRI2300345",
         "name": "Art Sale",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "lamppost.jpg"
+        "image": "lamppost.jpg",
+        "imageFramed": "lamppost-frame.jpg",
+        "imageWall": "lamppost-wall.jpg"
     }
 }, {
     "pk": 26,
@@ -305,10 +355,12 @@
         "sku": "PRI9345045",
         "name": "Fastnet - Carraig Aonair",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "lighthouse.jpg"
+        "image": "lighthouse.jpg",
+        "imageFramed": "lighthouse-frame.jpg",
+        "imageWall": "lighthouse-wall.jpg"
     }
 }, {
     "pk": 27,
@@ -317,10 +369,12 @@
         "sku": "PRI4039455",
         "name": "Gouganne Barra Lake",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "mountain-lake.jpg"
+        "image": "mountain-lake.jpg",
+        "imageFramed": "mountain-lake-frame.jpg",
+        "imageWall": "mountain-lake-wall.jpg"
     }
 }, {
     "pk": 28,
@@ -329,22 +383,26 @@
         "sku": "PRI3345004",
         "name": "Tír na Spideoga",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "robin2.jpg"
+        "image": "robin2.jpg",
+        "imageFramed": "robin2-frame.jpg",
+        "imageWall": "robin2-wall.jpg"
     }
 }, {
     "pk": 29,
     "model": "products.product",
     "fields": {
         "sku": "PRI1182746",
-        "name": "Stream TBC name",
+        "name": "Stream Meanders",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "stream.jpg"
+        "image": "stream.jpg",
+        "imageFramed": "stream-frame.jpg",
+        "imageWall": "stream-wall.jpg"
     }
 }, {
     "pk": 30,
@@ -353,10 +411,12 @@
         "sku": "PRI2120394",
         "name": "Frost in the Woods",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "stream2.jpg"
+        "image": "stream2.jpg",
+        "imageFramed": "stream2-frame.jpg",
+        "imageWall": "stream2-wall.jpg"
     }
 }, {
     "pk": 31,
@@ -365,22 +425,26 @@
         "sku": "PRI3122568",
         "name": "Sunrise on the Bandon",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "sunset.jpg"
+        "image": "sunset.jpg",
+        "imageFramed": "sunset-frame.jpg",
+        "imageWall": "sunset-wall.jpg"
     }
 }, {
     "pk": 32,
     "model": "products.product",
     "fields": {
         "sku": "PRI4334790",
-        "name": "Eala TBC name",
+        "name": "Eala",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "swan2.jpg"
+        "image": "swan2.jpg",
+        "imageFramed": "swan2-frame.jpg",
+        "imageWall": "swan2-wall.jpg"
     }
 }, {
     "pk": 33,
@@ -389,10 +453,12 @@
         "sku": "PRI3326787",
         "name": "Three Trees",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "trees.jpg"
+        "image": "trees.jpg",
+        "imageFramed": "trees-frame.jpg",
+        "imageWall": "trees-wall.jpg"
     }
 }, {
     "pk": 34,
@@ -401,10 +467,12 @@
         "sku": "PRI2034837",
         "name": "Mayflower",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "white-flowers.jpg"
+        "image": "white-flowers.jpg",
+        "imageFramed": "white-flowers-frame.jpg",
+        "imageWall": "white-flowers-wall.jpg"
     }
 }, {
     "pk": 35,
@@ -413,10 +481,12 @@
         "sku": "PRI8293845",
         "name": "Cottage Window - Cape Clear",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "window.jpg"
+        "image": "window.jpg",
+        "imageFramed": "window-frame.jpg",
+        "imageWall": "window-wall.jpg"
     }
 }, {
     "pk": 36,
@@ -425,10 +495,12 @@
         "sku": "PRI6653790",
         "name": "Autumn on Cottage Walk",
         "size": "1 X 1",
-        "description": "",
+        "description": "Dimensions relate to paper size Each print is produced using fine art photographic paper & Archival inks",
         "price": 75.00,
         "category": 1,
-        "image": "wood-portal.jpg"
+        "image": "wood-portal.jpg",
+        "imageFramed": "wood-portal-frame.jpg",
+        "imageWall": "wood-portal-wall.jpg"
     }
 },{
     "pk": 37,

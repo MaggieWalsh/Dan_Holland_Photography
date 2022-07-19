@@ -12,11 +12,4 @@
         "name": "frames",
         "friendly_name": "Frames"
     }
-}, {
-    "pk": 3,
-    "model": "products.category",
-    "fields": {
-        "name": "images",
-        "friendly_name": "Images"
-    }
 }]

@@ -394,4 +394,93 @@
         "category": 1,
         "image": "wood-portal.jpg"
     }
+},{
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+        "sku": "FRAME1",
+        "name": "Black Frame",
+        "description": "",
+        "price": 15.00,
+        "category": 2,
+        "image": "frame-black.png"
+
+    }
+}, {
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+        "sku": "FRAME2",
+        "name": "Gold Frame",
+        "description": "",
+        "price": 15.00,
+        "category": 2,
+        "image": "frame-gold.png"
+    }
+}, {
+    "pk": 39,
+    "model": "products.product",
+    "fields": {
+        "sku": "FRAME3",
+        "name": "Light Wood Frame",
+        "description": "",
+        "price": 15.00,
+        "category": 2,
+        "image": "frame-light-wood.png"
+    }
+}, {
+    "pk": 40,
+    "model": "products.product",
+    "fields": {
+        "sku": "FRAME4",
+        "name": "Medium Brown Wood Frame",
+        "description": "",
+        "price": 15.00,
+        "category": 2,
+        "image": "frame-med-wood.png"
+    }
+}, {
+    "pk": 41,
+    "model": "products.product",
+    "fields": {
+        "sku": "FRAME5",
+        "name": "Silver Frame",
+        "description": "",
+        "price": 15.00,
+        "category": 2,
+        "image": "frame-silver.png"
+    }
+}, {
+    "pk": 42,
+    "model": "products.product",
+    "fields": {
+        "sku": "FRAME6",
+        "name": "Untreated Wood Frame",
+        "description": "",
+        "price": 15.00,
+        "category": 2,
+        "image": "frame-untreated.png"
+    }
+}, {
+    "pk": 43,
+    "model": "products.product",
+    "fields": {
+        "sku": "FRAME7",
+        "name": "Slim White Frame",
+        "description": "",
+        "price": 15.00,
+        "category": 2,
+        "image": "frame-white-slim.png"
+    }
+}, {
+    "pk": 44,
+    "model": "products.product",
+    "fields": {
+        "sku": "FRAME8",
+        "name": "White Frame",
+        "description": "",
+        "price": 15.00,
+        "category": 2,
+        "image": "frame-white.png"
+    }
 }]

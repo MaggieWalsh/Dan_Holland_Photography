@@ -7,9 +7,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "swan.jpg",
-        "imageFramed": "swan-frame.jpg",
-        "imageWall": "swan-wall.jpg"
+        "image": "swan.jpg"
     }
 }, {
     "pk": 2,
@@ -20,9 +18,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "robin.jpg",
-        "imageFramed": "robin-frame.jpg",
-        "imageWall": "robin-wall.jpg"
+        "image": "robin.jpg"
     }
 }, {
     "pk": 3,
@@ -33,9 +29,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "fuschia.jpg",
-        "imageFramed": "fuschia-frame.jpg",
-        "imageWall": "fuschia-wall.jpg"
+        "image": "fuschia.jpg"
     }
 }, {
     "pk": 4,
@@ -46,9 +40,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "trees-bw.jpg",
-        "imageFramed": "trees-bw-frame.jpg",
-        "imageWall": "trees-bw-wall.jpg"
+        "image": "trees-bw.jpg"
     }
 }, {
     "pk": 5,
@@ -59,9 +51,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "woods.jpg",
-        "imageFramed": "woods-frame.jpg",
-        "imageWall": "woods-wall.jpg"
+        "image": "woods.jpg"
     }
 }, {
     "pk": 6,
@@ -72,9 +62,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "autumn-leaves.jpg",
-        "imageFramed": "autumn-leaves-frame.jpg",
-        "imageWall": "autumn-leaves-wall.jpg"
+        "image": "autumn-leaves.jpg"
     }
 }, {
     "pk": 7,
@@ -85,9 +73,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "bicycle.jpg",
-        "imageFramed": "bicycle-frame.jpg",
-        "imageWall": "bicycle-wall.jpg"
+        "image": "bicycle.jpg"
     }
 }, {
     "pk": 8,
@@ -98,9 +84,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "boats.jpg",
-        "imageFramed": "boats-frame.jpg",
-        "imageWall": "boats-wall.jpg"
+        "image": "boats.jpg"
     }
 }, {
     "pk": 9,
@@ -111,9 +95,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "bridge.jpg",
-        "imageFramed": "bridge-frame.jpg",
-        "imageWall": "bridge-wall.jpg"
+        "image": "bridge.jpg"
     }
 }, {
     "pk": 10,
@@ -124,9 +106,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "castle.jpg",
-        "imageFramed": "castle-frame.jpg",
-        "imageWall": "castle-wall.jpg"
+        "image": "castle.jpg"
     }
 }, {
     "pk": 11,
@@ -137,9 +117,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "cattle.jpg",
-        "imageFramed": "cattle-frame.jpg",
-        "imageWall": "cattle-wall.jpg"
+        "image": "cattle.jpg"
     }
 }, {
     "pk": 12,
@@ -150,9 +128,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "church-roof.jpg",
-        "imageFramed": "church-roof-frame.jpg",
-        "imageWall": "church-roof-wall.jpg"
+        "image": "church-roof.jpg"
     }
 }, {
     "pk": 13,
@@ -163,9 +139,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "cloak.jpg",
-        "imageFramed": "cloak-frame.jpg",
-        "imageWall": "cloak-wall.jpg"
+        "image": "cloak.jpg"
     }
 }, {
     "pk": 14,
@@ -176,9 +150,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "clouds.jpg",
-        "imageFramed": "clouds-frame.jpg",
-        "imageWall": "clouds-wall.jpg"
+        "image": "clouds.jpg"
     }
 }, {
     "pk": 15,
@@ -189,9 +161,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "dark-clouds.jpg",
-        "imageFramed": "dark-clouds-frame.jpg",
-        "imageWall": "dark-clouds-wall.jpg"
+        "image": "dark-clouds.jpg"
     }
 }, {
     "pk": 16,
@@ -202,9 +172,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "donkey.jpg",
-        "imageFramed": "donkey-frame.jpg",
-        "imageWall": "donkey-wall.jpg"
+        "image": "donkey.jpg"
     }
 }, {
     "pk": 17,
@@ -215,9 +183,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "dragonfly.jpg",
-        "imageFramed": "dragonfly-frame.jpg",
-        "imageWall": "dragonfly-wall.jpg"
+        "image": "dragonfly.jpg"
     }
 }, {
     "pk": 18,
@@ -228,9 +194,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "empty-shop.jpg",
-        "imageFramed": "empty-shop-frame.jpg",
-        "imageWall": "empty-shop-wall.jpg"
+        "image": "empty-shop.jpg"
     }
 }, {
     "pk": 19,
@@ -241,9 +205,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "flower.jpg",
-        "imageFramed": "flower-frame.jpg",
-        "imageWall": "flower-wall.jpg"
+        "image": "flower.jpg"
     }
 }, {
     "pk": 20,
@@ -254,9 +216,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "gougane-barra.jpg",
-        "imageFramed": "gougane-barra-frame.jpg",
-        "imageWall": "gougane-barra-wall.jpg"
+        "image": "gougane-barra.jpg"
     }
 }, {
     "pk": 21,
@@ -267,9 +227,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "heron.jpg",
-        "imageFramed": "heron-frame.jpg",
-        "imageWall": "heron-wall.jpg"
+        "image": "heron.jpg"
     }
 }, {
     "pk": 22,
@@ -280,9 +238,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "horse.jpg",
-        "imageFramed": "horse-frame.jpg",
-        "imageWall": "horse-wall.jpg"
+        "image": "horse.jpg"
     }
 }, {
     "pk": 23,
@@ -293,9 +249,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "horse2.jpg",
-        "imageFramed": "horse2-frame.jpg",
-        "imageWall": "horse2-wall.jpg"
+        "image": "horse2.jpg"
     }
 }, {
     "pk": 24,
@@ -306,9 +260,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "ladybirds.jpg",
-        "imageFramed": "ladybirds-frame.jpg",
-        "imageWall": "ladybirds-wall.jpg"
+        "image": "ladybirds.jpg"
     }
 }, {
     "pk": 25,
@@ -319,9 +271,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "lamppost.jpg",
-        "imageFramed": "lamppost-frame.jpg",
-        "imageWall": "lamppost-wall.jpg"
+        "image": "lamppost.jpg"
     }
 }, {
     "pk": 26,
@@ -332,9 +282,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "lighthouse.jpg",
-        "imageFramed": "lighthouse-frame.jpg",
-        "imageWall": "lighthouse-wall.jpg"
+        "image": "lighthouse.jpg"
     }
 }, {
     "pk": 27,
@@ -345,9 +293,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "mountain-lake.jpg",
-        "imageFramed": "mountain-lake-frame.jpg",
-        "imageWall": "mountain-lake-wall.jpg"
+        "image": "mountain-lake.jpg"
     }
 }, {
     "pk": 28,
@@ -358,9 +304,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "robin2.jpg",
-        "imageFramed": "robin2-frame.jpg",
-        "imageWall": "robin2-wall.jpg"
+        "image": "robin2.jpg"
     }
 }, {
     "pk": 29,
@@ -371,9 +315,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "stream.jpg",
-        "imageFramed": "stream-frame.jpg",
-        "imageWall": "stream-wall.jpg"
+        "image": "stream.jpg"
     }
 }, {
     "pk": 30,
@@ -384,9 +326,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "stream2.jpg",
-        "imageFramed": "stream2-frame.jpg",
-        "imageWall": "stream2-wall.jpg"
+        "image": "stream2.jpg"
     }
 }, {
     "pk": 31,
@@ -397,9 +337,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "sunset.jpg",
-        "imageFramed": "sunset-frame.jpg",
-        "imageWall": "sunset-wall.jpg"
+        "image": "sunset.jpg"
     }
 }, {
     "pk": 32,
@@ -410,9 +348,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "swan2.jpg",
-        "imageFramed": "swan2-frame.jpg",
-        "imageWall": "swan2-wall.jpg"
+        "image": "swan2.jpg"
     }
 }, {
     "pk": 33,
@@ -423,9 +359,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "trees.jpg",
-        "imageFramed": "trees-frame.jpg",
-        "imageWall": "trees-wall.jpg"
+        "image": "trees.jpg"
     }
 }, {
     "pk": 34,
@@ -436,9 +370,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "white-flowers.jpg",
-        "imageFramed": "white-flowers-frame.jpg",
-        "imageWall": "white-flowers-wall.jpg"
+        "image": "white-flowers.jpg"
     }
 }, {
     "pk": 35,
@@ -449,9 +381,7 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "window.jpg",
-        "imageFramed": "window-frame.jpg",
-        "imageWall": "window-wall.jpg"
+        "image": "window.jpg"
     }
 }, {
     "pk": 36,
@@ -462,8 +392,6 @@
         "description": "",
         "price": 75.00,
         "category": 1,
-        "image": "wood-portal.jpg",
-        "imageFramed": "wood-portal-frame.jpg",
-        "imageWall": "wood-portal-wall.jpg"
+        "image": "wood-portal.jpg"
     }
 }]

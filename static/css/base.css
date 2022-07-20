@@ -104,7 +104,9 @@ body::before {
     color: white !important;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.remove-item  {
     cursor: pointer;
 }
 

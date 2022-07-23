@@ -120,16 +120,17 @@ WSGI_APPLICATION = 'dan_holland_photography.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
-
-DATABASES = {
-    'default' : dj_database_url.parse('postgres://gxkoldragywohx:c229aee2bf1a712bf8d8c8dbd7c5c51208ccf8de07de06dce3841ea3efca6d0a@ec2-34-252-216-149.eu-west-1.compute.amazonaws.com:5432/d3tvqu3u5rc1o6')
-}
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 
 # Password validation

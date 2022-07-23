@@ -1,0 +1,11 @@
+Hello {{ contact.first_name }}!
+
+This is a confirmation of your enquiry with Dan Holland Photography.
+
+Thank you for getting in touch! We aim to get back to you this as soon as possible.
+
+Sincerely,
+
+Dan Holland Photography
+
+Original enquiry here: {{ contact.enquiry }}

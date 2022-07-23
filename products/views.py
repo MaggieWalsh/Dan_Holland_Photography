@@ -13,7 +13,7 @@ def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
     products = Product.objects.all()
-    query = None
+    enquiry = None
     categories = None
     sort = None
     direction = None
@@ -39,19 +39,19 @@ def all_products(request):
             categories = Category.objects.filter(name__in=categories)
 
         if 'q' in request.GET:
-            query = request.GET['q']
-            if not query:
+            enquiry = request.GET['q']
+            if not enquiry:
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
             
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(name__icontains=enquiry) | Q(description__icontains=enquiry)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
 
     context = {
         'products': products,
-        'search_term': query,
+        'search_term': enquiry,
         'current_categories': categories,
         'current_sorting': current_sorting,
     }

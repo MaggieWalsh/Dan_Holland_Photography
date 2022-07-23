@@ -68,3 +68,4 @@ Temporary Items
 *.sqlite3
 *.pyc
 __pycache__
+env.py

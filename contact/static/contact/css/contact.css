@@ -1,0 +1,12 @@
+.order-history {
+    max-height: 416px; /* height of profile form + submit button */
+    overflow-y: auto;
+}
+
+#contact-form .form-control {
+    color: #000;
+}
+
+#contact-form input::placeholder {
+    color: #aab7c4;
+}

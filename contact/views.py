@@ -23,19 +23,11 @@ def contact(request):
         contact_form = ContactForm(form_data)
 
         if contact_form.is_valid():
-            # If form is valid and user registered attach user to form
-            user_contact = contact_form.save(commit=False)
-            if request.user.is_authenticated:
-                user = User.objects.get(username=request.user)
-                user_contact.user = user
-            user_contact.save()
-            send_confirmation_email(user_contact)
             messages.success(
-                request, "That's sent, check your email for confirmation")
+                request, 'Enquiry sent!')
             return redirect(reverse('products'))
         else:
-            messages.error(request, 'There was an error with your form. \
-                Please double check your information.')
+            messages.error(request, 'Error sending enquiry. Try again.')
             return redirect(reverse('contact'))
 
     else:
@@ -45,9 +37,6 @@ def contact(request):
             try:
                 profile = UserProfile.objects.get(user=request.user)
                 contact_form = ContactForm(initial={
-                    'first_name': profile.default_first_name,
-                    'surname': profile.default_surname,
-                    'email': profile.default_email,
                 })
             except UserProfile.DoesNotExist:
                 contact_form = ContactForm()
@@ -58,19 +47,3 @@ def contact(request):
             'contact_form': contact_form
         }
         return render(request, template, context)
-
-
-def send_confirmation_email(user_contact):
-    """Send the user a confirmation email"""
-    cust_email = user_contact.email
-    subject = 'Thank you for contacting us at Dan Holland Photography'
-    body = render_to_string(
-            'contact/confirmation_emails/confirmation_email_body.txt',
-            {'contact': user_contact})
-
-    send_mail(
-        subject,
-        body,
-        settings.DEFAULT_FROM_EMAIL,
-        [cust_email]
-    )

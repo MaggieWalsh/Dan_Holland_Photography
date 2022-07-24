@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'contact/css/contact.css' %}">
+{% endblock %}
+
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
@@ -13,20 +17,27 @@
 <div class="overlay"></div>
 <div class="container mb-2">
     <div class="row">
-        <div class="col bg-light">
-            <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-                <form method="POST" action="{% url 'contact' %}" id="contact-form">
-                    {% csrf_token %}
-                    {{ contact_form|crispy }}
-                    <div class="col-12 text-center">
-                        <button id="submit-button" class="btn btn-black rounded-0">Send!</button>
-                        <a href="{% url 'products' %}" aria-label="" class="btn btn-outline-black rounded-0">Cancel
-                        </a>
-                    </div>
-                </form>
-            </div>
+        <div class="col text-center">
+            <hr>
+            <h2 class="logo-font mb-4">Contact Us</h2>
+            <hr>
         </div>
     </div>
+    <div class="col bg-light">
+        <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+            <form method="POST" action="{% url 'contact' %}" id="contact-form">
+                {% csrf_token %}
+                {{ contact_form|crispy }}
+                <div class="col-12 text-center">
+                    <button id="submit-button" class="btn btn-black text-uppercase  rounded-0">Send!</button>
+                    <a href="{% url 'products' %}" aria-label=""
+                        class="btn btn-outline-black text-uppercase  rounded-0">Cancel
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 </div>
 
 {% endblock %}

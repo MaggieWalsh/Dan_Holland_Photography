@@ -3,12 +3,12 @@
 
 I created this website for the 4th Milestone Project on Full Stack Frameworks with Django, at Code Institute's Diploma in Software Development course. 
 
-Visit the live [website.](https://maggiewalsh.github.io/Dan_Holland_Photography/)
+Visit the live [website.](https://dan-holland-photography.herokuapp.com/)
 
-I wanted to create a website to showcase a professional nature photographer.  
-The website features .....
+I wanted to create a website to showcase a professional photographer.  
+The website features an initial landing page with a call to action button to discover more.
 
-![Am I Responsive image of how the landing page looks across different browser sizes](docs/am-i-responsive.png)
+![Am I Responsive image of how the landing page looks across different browser sizes](docs/readme-files/am-i-responsive.png)
 
 # Table of Contents
   * [UX and UI](#ux-and-ui)
@@ -52,33 +52,28 @@ The website features .....
 
   * ## Project Research
 
-    I have worked in, and managed a trade paint shop since 2016. Having served thousands of customers, I have a good understanding of the expectations people have when it comes to the finish of their homes. 
+    I spoke with the photographer and ascertained what he would like to achieve from the website.
 
     * ## Research Analysis
 
-      As people have had to spend a lot more time at home since the start of the pandemic, there has been a huge increase in home improvements.
-      
-      Everyone wants an 'Instaworthy' home with a high-end finish. 
+      A simple website with a neutral theme to allow the images to be the focal point is desired. 
 
   * ## Persona and Their Goals
 
-    * The ideal customer for this company is wealthy. 
+    * The ideal customer is looking for some prints to hang with pride of place in their home.
     
-    * They are looking for luxury with no expense spared. They believe in spending on quality materials. 
-    
-    * They want a bespoke experience, tailored to their every desire. 
-    
-    * They want a service that is going to take them from conception to completion, by a team that they can trust.
+    * They see the value in having beautiful pieces in their home. 
 
   * ## Owner Goals
     1. Increase sales.
     2. Improve interaction with existing and potential customers.
     3. Build the brand.
+    3. Get people interested in the beauty of nature.
   * ## User Stories
     1. As a user visiting the site for the first time, I want to navigate the site intuitively.
-    2. As a user, I want to know what services are provided, and what is involved in the process.
-    3. As a user, I want to be able to find out the cost of the services provided.
-    4. As a user, I want to be able to see past projects, in order to know if this is the right company for me.
+    2. As a user, I want to know what the site is for.
+    3. As a user, I want to be able to find out the cost of the products available, including delivery.
+    4. As a user, I want to know a little bit more about the owner.
     5. As a user, I want to be able to contact the company.
     6. As a user, I want to know where your paint stockists are located.
     7. As a user, I want to be able to access your social media accounts.
@@ -86,23 +81,22 @@ The website features .....
     * Mobile, Tablet, and Desktop wireframes are all available [here.](docs/wireframes.pdf)
   * ## Design
     * ## Colour Scheme
-      I wanted a neutral colour scheme that wasn't going to detract from the overall flow of the website. 
+      I wanted a neutral colour scheme that wasn't going to detract from the images for sale. 
       
-      I settled on my hero image very early on. I used the [Coolors](https://coolors.co/) website to generate a [colour](docs/colour-palette.jpg) pallette for the website from my hero image. This meant that the colours complimented each other nicely. 
+      I settled on my hero image very early on as it is a very important image to the photographer.
     * ## Favicon 
-      I used the [Favicon.io](https://favicon.io/) website to create a favicon for my website. I wanted to continue with the neutral theme, so I kept the background colour the same as the header and footer sections. I used the same font for the headings and logo and left it as a simple 'W', so as not to be too busy.
+      I used the [Favicon.io](https://favicon.io/) website to create a favicon for my website. I kept the background white with a simple black font 'DH|P'.
     * ## Typography
-      I wanted an elegant looking font to bolster the feeling of luxury throughout the site. I liked the contrast between the font for the headings which is Fairplay Display, and the font for the rest of the website.
+      I kept the font simple with Lato.
     * ## Imagery
-      All imagery was sourced from the website, [Unsplash.](https://unsplash.com/)
+      All imagery was sourced from the photographer Dan Holland. Chosen by himself to represent the brand.
 
-      The images that I chose were subtly oppulent, which fit the site well. The hero image is undistracting but decorated to a high standard which sets a good first impression for the site. I wanted all the images to be aesthetically pleasing, to convey the quality that I was aiming for.
     * ## Layout
-      I decided on a multi-page website because I felt like each section deserved it's own dedicated page. I wanted the hero image to take up the entire space above the fold on the landing page, in order to make a good first impression. I opted for a larger than 'standard' footer as I feel like a more substantial footer leads to a more elegant feeling. The opaque overlay finishes it off nicely.
+      I decided on a multi-page website because I felt like each section deserved it's own dedicated page. I wanted the hero image to take up the entire space above the fold on the landing page, in order to make a good first impression. The only other element on this page is the 'Discover' button to enter the site.
   * ## Features
     * ## Existing Features
-      * Every page has the following features from left to right, top to bottom :
-        * Logo - Family name - Elegant font. I made the decision to add the tagline "Original Interior Design" below the name as I felt like it wasn't clear from the landing page what the website was about. The logo also serves as a function to return to the landing page from all other pages.
+      * Every page (excluding the landing page) has the following features from left to right, top to bottom :
+        * Logo - Photographers name. I made sure to use the word 'Photographer' in the websites name so that it is clear from the outset. The logo also serves as a function to return to the landing page from all other pages. The logo is hidden on smaller screens and is replaced with a 'Home' link in the dropdown navbar.
 
           ![Logo](docs/logo.png)
 

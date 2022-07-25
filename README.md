@@ -75,8 +75,6 @@ The website features an initial landing page with a call to action button to dis
     3. As a user, I want to be able to find out the cost of the products available, including delivery.
     4. As a user, I want to know a little bit more about the owner.
     5. As a user, I want to be able to contact the company.
-    6. As a user, I want to know where your paint stockists are located.
-    7. As a user, I want to be able to access your social media accounts.
   * ## Wireframes
     * Mobile, Tablet, and Desktop wireframes are all available [here.](docs/wireframes.pdf)
   * ## Design
@@ -98,59 +96,28 @@ The website features an initial landing page with a call to action button to dis
       * Every page (excluding the landing page) has the following features from left to right, top to bottom :
         * Logo - Photographers name. I made sure to use the word 'Photographer' in the websites name so that it is clear from the outset. The logo also serves as a function to return to the landing page from all other pages. The logo is hidden on smaller screens and is replaced with a 'Home' link in the dropdown navbar.
 
-          ![Logo](docs/logo.png)
-
-        * Navbar - The heart of the website. This allows users to intuitively navigate the site. The current page that the user is on is highlighted as active, so that the user always knows where they are. It contains important information that a user would expect to find in the navbar. Including a 'call to action' form on the contact page.
+        * Navbar - The heart of the website. This allows users to intuitively navigate the site. It contains important information that a user would expect to find in the navbar. Including a 'call to action' form on the contact page.
 
           The navbar is designed to toggle from the hamburger navigation icon to a standard menu once the screen size goes past that of 991px wide. This is to satisfy the mobile first criteria of this project.
 
-          ![Navbar](docs/navbar.png)
-
         * Content - Each page has details relating to the header of said page.
-        * Footer - The footer contains the company name, opening days and times, contact email and phone numbers for the offices in Dublin and London, social media links, that open in a new tab and a hyperlink to the sites home page. 
 
-          ![Footer](docs/footer.png)
+      * Home - This page contains the hero image and a simple 'Discover' button to prompt users to enter the site.
 
-      * Landing page - This page contains the hero image and a scroll prompt, on desktop only, to allow users to know that there is more content below the fold. 
+      * About - Brief description about the owner.
+
+      * Shop - Lists all products available to buy, and their costs.
+
+      * Contact - This page contains a form for the user to make an enquiry. 
       
-        There is a brief description of the company and what they do. I have added a picture of the owner for a personal touch. I feel like a family run business is affiliated with a sense of trustworthiness. 
-      
-        I decided to add a banner below this content to address the current global pandemic, COVID-19, in order to add a sense that this is a real website. There is also a link in this banner that brings the user to the contact page in order to make an appointment as indicated.
-
-        ![Hero Image](docs/landing-page.png)
-
-      * Portfolio - The image carousel contains pictures of recent projects completed by the company, with some informative text below.
-
-        ![Portfolio](docs/portfolio.png)
-
-      * Services - This gives the user all the information they need, should they engage the services of the company. 
-      
-        It also contains the costs for the initial consultation. There is an image of a business lady at a computer accompanying this information.
-
-        ![Services](docs/services.png)
-
-      * Paint - I wanted to provide the user with a brief description of the paint service available. 
-      
-        The stockist button serves to pop open a modal which is styled with the same colour pallette and font as the rest of the site. In the modal there is a table containing contact information for each stockist in Ireland and England. This allows the user to choose their nearest stockist to get their paint from.
-        Upon exiting the modal, below the "Stockist" button there are a range of paints available from the company.
-
-        ![Paint](docs/paint.png)
-
-      * Contact - This page contains a form for the user to do a number of things, e.g. book an appointment, online consultation, private home enquiry, commercial enquiry or other option to be specified in the message section. There is an option to opt in, or out of signing up to the companies newsletter, along with an option to say how the user heard about the company. 
-      
-        The user must submit certain details on the form in order for it to be successful. Once done, the user is brought to a success page that thanks them for their enquiry. It will redirect the user to the services page , as stated, after 10 seconds. This page has the same styling and navigation menu as the other pages. Should an error occur and the redirect fails, the user will be able to navigate the page as normal. There is some text to let the user know that the enquiry has been submitted, and that someone will be in touch with them soon.
-
-        Below the contact form, on desktop only, there are two cards that contain a photo of the London, and Dublin offices respectively, to give the user an idea of the company offices.
-
-        ![Contact](docs/contact.png)
+        The user must submit certain details on the form in order for it to be successful. Once done, a prompt appears in the message window, top right, to let the user know that the enquiry has been submitted, and that someone will be in touch with them soon. The user is redirected to the products page.
 
       * 404 Error - This page is a purpose made error page to link to the email address in the footer. There is a return to home link which directs the user back to the websites landing page.
 
-        ![Error](docs/error404.png)
-
     * ## Features to be Implemented in Future
-      * 3D Room Visualiser - To be able to provide clients with visual representation of the projected finished look.
-      * Furniture Shop - To allow clients to browse the furniture available, ahead of an appointment or to buy direct.
+      * Ability to choose product sizes.
+      * Email confirmation of orders.
+      * Email verification for account sign up.
   * ## Information Architecture
     * ## Data Storage
       ### User Table
@@ -231,81 +198,38 @@ The website features an initial landing page with a call to action button to dis
     * ## User Stories Testing
       1. As a user visiting the site for the first time, I want to navigate the site intuitively.
          * A user can navigate to the landing page from any page in the website. Either via the navigation menu, or the logo. As is standard with most navigation these days.
-         * On the landing page there is a banner providing Covid-19 information and also a link to the call to action form on the contact page.
-      2. As a user, I want to know what services are provided, and what is involved in the process.
-         * A user can navigate to the services page in order to see what is involved int the interior design steps.
-         * There is further information regarding the paint service on the paint page.
-      3. As a user, I want to be able to find out the cost of the services provided.
-         * A user can find out the cost for the initial consultation by navigating to the services page.
-      4. As a user, I want to be able to see past projects, in order to know if this is the right company for me.
-         * A user can view past projects by navigating to the portfolio page, where there is a carousel of images of the companies most recent projects.
+      2. As a user, I want to know what the site is for.
+         * A user can immediately tell that this is a photographers website.
+         * Products are available to view and be purchased.
+      3. As a user, I want to be able to find out the cost of the products available, including delivery.
+         * A user can find out of the delivery in the banner on all pages, the cost of the products is below each one.
+      4. As a user, I want to know a little bit more about the owner.
+         * A user can get some insight into the owner via the About page.
       5. As a user, I want to be able to contact the company.
-         * A user can contact the company via the telephone numbers in the footer.
-         * A user can contact the company via the email address in the footer.
          * A user can contact the company via the form on the contact page.
-      6. As a user, I want to know where your paint stockists are located.
-         * A user can find out the location of the paint stockists by navigating to the paint page and clicking on the stockist button, which will open a modal containing the stockist locations.
-      7. As a user, I want to be able to access your social media accounts.
-         * A user can access the comapnies social media links via the footer in any of the pages that they find themselves on.
     * ## Manual Testing 
       * Navigation - Repeated steps on all pages.
         * Click on logo to confirm that it navigates to landing page.
         * Click on all navigation links to verify that they direct to the indicated page.
         * Verify that the current page the user is on, is highlighted as active in the menu.
-        * Verify that the navigation menu shifts to from [hamburger](docs/hamburger.png) on screens of 991px and above. 
+        * Verify that the navigation menu shifts to from hamburger on screens of 991px and above. 
       * Landing page
-        * Verify that the [scroll](docs/no-scroll.png) prompt works only on screens 991px and above.
-        * Verify that the link to make an appointment directs the user to the contact page.
-      * Portfolio
+        * Verify that the link enter site works
+      * Shop and products details pages
         * Verify that the image carousel is functional, and clicks through the images.
         * Verify that images are confined to the carousel and not overflowing it.
-      * Paint
-        * Verify that the stockist button pops open a modal.
-        * Verify that the modal contains a table with stockist information. 
-        * Verify that modal closes when the 'X' button is selected, or the user clicks on the screen anywhere outside of the modal window.
+        * Verify that all buttons work accordingly and add or remove from the bag.
       * Contact
         * Verify that all elements that are set to required are working.
         * Verify that valid email address is needed with relevant '@' included.
-        * Verify that 'Submit' button directs user to a success page.
-      * Form success
-        * Verify that navigation elements work the same as all other pages.
-        * Verify that the page automatically redirects the user to the services page after 10 seconds, as indicated.
-      * Footer - Repeated steps on all pages.
-        * Verify that the social media links open in a new tab.
-        * Verify that the email link directs the user to a custom 404 error page when selected.
-        * Verify that the 404 error page 'Return home' link brings the user back to the landing page.
-        * Verify that the phone number shown is dialled when selected.
-        * Verify that the website hyperlink directs the user back to the landing page.
+        * Verify that the page automatically redirects the user to the products as indicated.
     * ## Additional Testing 
       * [W3 - Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
-
       * [W3C - HTML Validator](https://validator.w3.org/)
+      * [PEP8 - Python Validator](https://peps.python.org/pep-0008/)
     * ## Resolved Bugs
-      * On the Contact page there was a modal pop up to confirm the contact form worked. I changed this to a custom success page, but I forgot to remove the header classes so the browser was looking for a modal unnecessarily. Which resulted in the following error. I resolved it by deleting the unnecessary modal elements.
-
-        ![Modal error](docs/modal-error.png)
-
-      * I noticed stray ```, _``` in some places on my code. I eventually figured out that it was because of whitespace in my code. Which resolved once I deleted it.
-
-        ![white-space](docs/white-space.jpeg)
-
-        ![whitespace](docs/whitespace.jpeg)
-
-      * In the footer the links were the blue, it didn't suit the style of the rest of the website so I targeted the links in my css in order to change them to a more pleasing colour. 
-
-        The contrast between the footer color and the font was poor, I removed the muted text class to revert it to it's darker color.
-
-        ![links](docs/links.png)
-
-      * Initially the landing page didn't have the tagline 'Original Interior Design' I felt like it wasn't immediately clear what the purpose of the website was. I chose to add this tagline in order to make it clear.
-
-      * As the hero image takes up the entire content above the fold, I was worried that users to the site might not realise that there was more content upon scrolling. This led to me looking for a scroll indicator that I could apply to the desktop version. I found that on another CI students page, Fiachra Holland, who I have credited in my code and further down the readme.
-
-      * In order to improve accessibility, I added *aria labels* to all non-text links.
-
-      * In order to improve accessibility, I added *aria-hidden true* to Font Awesome icons that were not fucntional.
-
-      * In order to improve best practices, I added *rel-noopener* to the untrusted external links.
+      * Many errors were encountered along the way. These were usually down to spelling errors or incorrect paths. Early on I encountered an error which was particularly hard to debug due to how it presented itself. Django was telling me that there was an error with my path to my index page. This path had not been altered, so it was confusing. After quite some time it was discovered that the issue lay in needing to clear the cookies on the page as I had just started using 'session' in creating the shopping bag.
+      * I accidentally committed my secret keys without realising it. I have since regenerated these and hidden them in my env file.
 
   * ## Deployment
 
@@ -472,15 +396,13 @@ The website features an initial landing page with a call to action button to dis
 
   * ## Credits
     * ## Imagery
-        * [Unsplash](https://unsplash.com)
+        * Dan Holland
     * ## Code
       * Bootstrap was the base for the entire website in order to ensure it's responsivity.
-      * All code is my own unless explicitly stated in my code files in a comment.
-      * A special mention to Fiachra Holland for the code for the scroll indicator and the redirect function as mentioned in the comments in my code. Also for the basic structure for the README.md file.
-      * Credit to [MDB](https://mdbootstrap.com/) for the footer that I adapted.
+      * The bones of this project are from the Boutique Ado walkthrough which I have adapted as best I can in a short timeframe
       * Credit to Stack Overflow for some solutions that I have commented in my code.
     * ## Acknowledgements
-      * A special thank you to my mentor Rohit Sharma.  
-      * Thanks to my peers on Slack, specifically those that responded in the peer review, and my mini feb team, for their support along the way.
+      * A special thank you to my mentor Richard Wells for all his help along the way.
+      * Another special thank you to my peers in my Discord group for the moral support.
 
 

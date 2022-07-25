@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg">
+            <hr>
+            <h2 class="logo-font text-center mb-4">About</h2>
+            <hr>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-lg-4 order-lg-1">
+            <img class="card-img-top shadow img-fluid" src="{{ MEDIA_URL }}photographer.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-lg-4 order-lg-2">
+            <p class='mt-2'>As a self-taught photographer, Dan generally doesn't trouble himself with camera dials or a
+                tripod, instead his chief focus is always on composition. His portfolio ranges from landscapes of the
+                beautiful West Cork, Ireland, his aim is to share the natural beauty in the unexpected.
+                <br>
+                Dan loves to collaborate, with no project ebing too small. If you would like to have Dan
+                join you on a project please don't hesitate to get in <a href="{% url 'contact' %}">touch</a>.
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
